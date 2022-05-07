@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using NZWalks.API.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,9 @@ namespace NZWalks.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NZWalks.API", Version = "v1" });
             });
+
+            services.ConfigureSqlContext(Configuration);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
