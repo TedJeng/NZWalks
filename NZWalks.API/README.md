@@ -1,9 +1,9 @@
 ﻿# Project NZWalks(WebAPI)
 
 ## 環境(Environment)
-> ASP.NET Core C# 5.0
-> SQLServer
-> git
+> ASP.NET Core C# 5.0  
+> SQLServer  
+> git  
 
 ## 架構(Struct)
 ```
@@ -125,11 +125,11 @@ VALUES ('a1066e97-c7c8-4aee-905b-61bb31d82bfb', 'Rainbow Mountain Reserve Walk',
 ```
 
 ## 參考
-[DTO](https://www.telerik.com/blogs/dotnet-basics-dto-data-transfer-object)
-[Migration](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
-[Async Programming](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
+[DTO](https://www.telerik.com/blogs/dotnet-basics-dto-data-transfer-object)  
+[Migration](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)  
+[Async Programming](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)  
 
 ## 使用工具
-[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hant/vs/)
-[SourceTree](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
-[GitHub](https://github.com/)
+[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hant/vs/)  
+[SourceTree](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)  
+[GitHub](https://github.com/)  
