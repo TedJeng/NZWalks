@@ -34,7 +34,10 @@ namespace NZWalks.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NZWalks.API", Version = "v1" });
             });
 
+            //Dbcontext ConnectionStrings
             services.ConfigureSqlContext(Configuration);
+            //Depend Inject
+            services.RefDependInject();
 
         }
 
